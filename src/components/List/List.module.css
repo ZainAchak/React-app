@@ -1,0 +1,14 @@
+.myH2{
+background-color: aquamarine;
+text-align: center;
+}
+
+li{
+    transition: background-color 0.2s ease;
+}
+
+li:hover{
+    background-color: rgb(214, 214, 213);
+    font-weight: bold;
+    cursor: pointer;
+}
