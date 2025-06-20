@@ -1,12 +1,31 @@
 body{
-    background-image: url();
+    background-image: url(../../assets/clockwall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .clockContainer{
-stroke-width: 0%;
+    stroke-width: 0%;
+    backdrop-filter: blur(5px);
+    background-color: rgba(82, 85, 77, 0.062);
+    width: 100vw;
+    padding: 10px 0;
 }
 
 .clock{
 
-
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
 }
