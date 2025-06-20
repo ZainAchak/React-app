@@ -1,7 +1,8 @@
 import React from 'react';
 // import UpdateObjectState from './components/UpdateObjectState';
-import ToDoListApp from './components/ToDoListApp/ToDoListApp';
-import UseEffectIncDec from './components/UseEffectIncDec/UseEffectIncDec';
+// import ToDoListApp from './components/ToDoListApp/ToDoListApp';
+// import UseEffectIncDec from './components/UseEffectIncDec/UseEffectIncDec';
+import DigitalClock from './components/DigitalClock/DigitalClock';
 // import List from "./List/List";
 // import Button from "./Button/Button";
 // import ProfilePitcure from "./components/ProfilePitcure";
@@ -14,7 +15,7 @@ import UseEffectIncDec from './components/UseEffectIncDec/UseEffectIncDec';
 function App() {
   return(
      <>
-        <UseEffectIncDec/>
+        <DigitalClock/>
      </>
   )
 }
