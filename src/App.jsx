@@ -1,6 +1,7 @@
 import React from 'react';
 // import UpdateObjectState from './components/UpdateObjectState';
 import ToDoListApp from './components/ToDoListApp/ToDoListApp';
+import UseEffectIncDec from './components/UseEffectIncDec/UseEffectIncDec';
 // import List from "./List/List";
 // import Button from "./Button/Button";
 // import ProfilePitcure from "./components/ProfilePitcure";
@@ -13,7 +14,7 @@ import ToDoListApp from './components/ToDoListApp/ToDoListApp';
 function App() {
   return(
      <>
-        <ToDoListApp/>
+        <UseEffectIncDec/>
      </>
   )
 }
