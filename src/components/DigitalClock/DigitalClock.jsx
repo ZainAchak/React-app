@@ -5,7 +5,7 @@ function DigitalClock() {
     return(
         <div className={styles.clockContainer}>
             <div className={styles.clock}>
-                <span>00:00:00</span>
+                <span>00:00:00:00:00</span>
             </div>
         </div>
     )

@@ -23,4 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 
-./src/assets/profile.png
+src/assets/profile.png
