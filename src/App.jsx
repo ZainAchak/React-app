@@ -1,8 +1,10 @@
 import React from 'react';
+import Stopwatch from './components/Stopwatch/Stopwatch';
+// import ComponentA from './components/componentA/componentA';
 // import UpdateObjectState from './components/UpdateObjectState';
 // import ToDoListApp from './components/ToDoListApp/ToDoListApp';
 // import UseEffectIncDec from './components/UseEffectIncDec/UseEffectIncDec';
-import DigitalClock from './components/DigitalClock/DigitalClock';
+// import DigitalClock from './components/DigitalClock/DigitalClock';
 // import List from "./List/List";
 // import Button from "./Button/Button";
 // import ProfilePitcure from "./components/ProfilePitcure";
@@ -11,12 +13,13 @@ import DigitalClock from './components/DigitalClock/DigitalClock';
 // import ColorPicker from './components/ColorPicker/ColorPicker';
 // import UpdateObjectUseState from './components/UpdateObjectUseState';
 // import UpdateArrayState from './components/UpdateArrayState';
+// import UseRefeg from './components/useRefeg';
 
 function App() {
   return(
-     <>
-        <DigitalClock/>
-     </>
+   <>
+      <Stopwatch />
+   </>
   )
 }
 
