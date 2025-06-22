@@ -1,17 +1,13 @@
-import React from 'react';
-import { Fragment } from 'react';
-import HeaderComp from "./newcomponents/HeaderComp"
-import FooterComp from "./newcomponents/FooterComp"
-import MainComp from "./newcomponents/MainComp"
+import React from "react"
+import HeaderComp from "./components/HeaderComp/HeaderComp"
+import EntryComp from "./components/EnterComp/EntryComp"
+import data from "./components/data"
 
-function App() {
+export default function App() {
   return(
-    <Fragment>
-        <HeaderComp />
-        <MainComp />
-        <FooterComp />
-    </Fragment>
+    <>
+      <HeaderComp/>
+      <EntryComp travelData={data}/>
+    </>
   )
 }
-
-export default App
