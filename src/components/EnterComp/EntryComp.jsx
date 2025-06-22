@@ -1,5 +1,5 @@
+/* eslint-disable react/prop-types */
 import React from "react";
-import PropTypes from "prop-types";
 import markerImage from "../../assets/marker.png"
 
 export default function EntryComp(props) {
@@ -8,7 +8,7 @@ export default function EntryComp(props) {
         <main>
             {
                 TravelData.map((tData,index)=> (
-                    <div key={tData.id}>
+                    <article key={tData.id}>
                         <div className="image-container">
                             <img src={tData.img.src} alt={tData.img.alt} />
                         </div>
@@ -22,10 +22,10 @@ export default function EntryComp(props) {
                             <span>{tData.dates}</span>
                             <p>{tData.text}</p>
                         </div>
-                    </div>
+                    </article>
                 ))
             }
-            {/* <div>
+            {/* <article>
                 <div className="image-container">
                     <img src="https://scrimba.com/links/travel-journal-japan-image-url" alt="Mount Fuji" />
                 </div>
@@ -39,11 +39,8 @@ export default function EntryComp(props) {
                     <span>12 Jan, 2021 - 24 Jan, 2021</span>
                     <p>Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.</p>
                 </div>
-            </div> */}
+            </article> */}
         </main>
     )
 }
 
-EntryComp.propTypes = {
-    travelData: PropTypes.any // Change to PropTypes.object or PropTypes.shape({...}) if you know the structure
-};
