@@ -1,4 +1,4 @@
-/* body{
+body{
     background-image: url(../../assets/clockwall.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-} */
+}
 
 .clockContainer{
     stroke-width: 0%;
